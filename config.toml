@@ -1,0 +1,31 @@
+baseURL = "https://yanmhlv.github.io/"
+languageCode = "en-us"
+language = "en"
+relativeURLs = true
+disableRSS = true
+enableRobotsTXT = true
+editor = "vscode"
+theme = "vncnt-hugo"
+
+title = "Ian Mikhailov · Landing Page"
+
+[blackfriday]
+  extensions = ["hardLineBreak"]
+
+[permalinks]
+  fixed = ":title/"
+  posts = "posts/:slug/"
+
+[params]
+  author = "Ian Mikhailov"
+  email = ""
+  description = "Landing Page"
+  bio = "Software Engineer\n golang, elixir, python\n"
+  avatar = "img/avatar.jpg"
+  favicon = "img/favicon.ico"
+  error404 = "There is no such page."
+
+  [params.contact]
+    github = "https://github.com/yanmhlv"
+    instagram = "https://instagram.com/yankthebest"
+    twitter = "https://twitter.com/yanmhlv"
